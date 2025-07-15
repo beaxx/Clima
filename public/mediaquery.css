@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px) {
+    .weatherInfo {
+        width: 90% !important;
+        height: auto;
+        padding: 20px;
+    }
+    .content{
+        width: 100%;
+    }
+}
+
+body{
+    height: 100vh;
+}
+
+
