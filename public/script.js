@@ -1,4 +1,4 @@
-    const apiKey = '7caf9f0ea915b65afd4f136881e9fb5c';
+    const apiKey = 'api_key';
     const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
     const imagemClima = document.getElementById('iconeClima');
