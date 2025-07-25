@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-    const apiKey = 'api_key';
-=======
     const apiKey = '7caf9f0ea915b65afd4f136881e9fb5c';
->>>>>>> master
     const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
     const imagemClima = document.getElementById('iconeClima');
@@ -51,11 +47,7 @@ const countryNames = {
     "US": "United States",
     "FR": "France",
     "ES": "Spain",
-<<<<<<< HEAD
-    "AL": "Germany",
-=======
     "DE": "Germany",
->>>>>>> master
     "PT": "Portugal",
     "IT": "Italy",
     "JP": "Japan",
@@ -285,11 +277,8 @@ const countryNames = {
         "Mist_night": "assets/mist.svg",
         "Fog_day": "assets/fog.svg",
         "Fog_night": "assets/fog.svg",
-<<<<<<< HEAD
-=======
         "Haze_day": "assets/haze.svg",
         "Haze_night": "assets/haze.svg",
->>>>>>> master
     };
 
     const fundos = {
@@ -311,11 +300,8 @@ const countryNames = {
         "Mist_night": "darkGrey",
         "Fog_day": "lightGrey",
         "Fog_night": "darkGrey",
-<<<<<<< HEAD
-=======
         "Haze_day": "lightBlueGrey",
         "Haze_night": "darkBLueGrey",
->>>>>>> master
     };
 
     const chave = `${weatherMain}_${periodo}`;
@@ -326,8 +312,4 @@ const countryNames = {
 
     const fundoSelecionado = fundos[chave] || "lightBlue";
     body.classList.add(fundoSelecionado);
-<<<<<<< HEAD
-    console.log("Fundo Selecionado:" + fundoSelecionado)
-=======
->>>>>>> master
     }
