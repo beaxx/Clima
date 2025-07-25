@@ -47,7 +47,7 @@ const countryNames = {
     "US": "United States",
     "FR": "France",
     "ES": "Spain",
-    "AL": "Germany",
+    "DE": "Germany",
     "PT": "Portugal",
     "IT": "Italy",
     "JP": "Japan",
@@ -277,6 +277,8 @@ const countryNames = {
         "Mist_night": "assets/mist.svg",
         "Fog_day": "assets/fog.svg",
         "Fog_night": "assets/fog.svg",
+        "Haze_day": "assets/haze.svg",
+        "Haze_night": "assets/haze.svg",
     };
 
     const fundos = {
@@ -298,6 +300,8 @@ const countryNames = {
         "Mist_night": "darkGrey",
         "Fog_day": "lightGrey",
         "Fog_night": "darkGrey",
+        "Haze_day": "lightBlueGrey",
+        "Haze_night": "darkBLueGrey",
     };
 
     const chave = `${weatherMain}_${periodo}`;
@@ -308,5 +312,4 @@ const countryNames = {
 
     const fundoSelecionado = fundos[chave] || "lightBlue";
     body.classList.add(fundoSelecionado);
-    console.log("Fundo Selecionado:" + fundoSelecionado)
     }

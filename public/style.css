@@ -15,6 +15,7 @@
     --lightGrey: #bec5cd;
     --darkGrey: #424242;
     --shadow: #00000033;
+    --shadow2:rgba(0, 0, 0, 0.114);
 }
 
 body{
@@ -41,4 +42,8 @@ body.grey{
 }
 body.darkGrey{
     background-color: var(--darkGrey);
+}
+
+#image{
+    filter: drop-shadow(0px 0px 10px var(--shadow2));
 }
