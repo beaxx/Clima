@@ -7,15 +7,26 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaquery.css">
+<<<<<<< HEAD
     <title>Weather</title>
 </head> 
 <body class="h-full h-screen flex justify-center items-center">
     <div class="flex flex-col justify-center items-center gap-5">
         <div class="flex flex-col text-center justify-center items-center m-auto w-[420px] h-[420px] bg-semiWhite p-10 rounded-2xl shadow-custom">
+=======
+    <link rel="description" content="Veja o clima das cidades do mundo todo em tempo real!">
+    <link rel="icon" href="assets/clear-day.svg" type="image/x-icon">
+    <title>Weather</title>
+</head> 
+<body class="h-screen h-full  flex justify-center items-center">
+    <div class="w-full flex flex-col justify-center items-center gap-5">
+        <div class="flex flex-col justify-center items-center text-center m-auto w-4/5 sm:w-[420px] h-[420px] bg-semiWhite p-10 rounded-2xl shadow-custom">
+>>>>>>> master
             <div class="flex text-center justify-center items-center">
                 <b><span class="text-2xl" id="location"></span></b> 
                 <span class="text-2xl" id="country"></span>
             </div>
+<<<<<<< HEAD
             
              <img class="mx-auto block h-44 sm:mx-0 sm:shrink-0" " src="assets/clear-day.svg" id="image"  alt="">
                <div id="temperature" class="text-3xl text-black font-medium"></div>
@@ -34,6 +45,25 @@
                     <span class="text-sm mt-2" id="tempMax"></span>
                 </div>
             </div>
+=======
+            <img class="mx-auto block h-44 sm:mx-0 sm:shrink-0"  src="assets/clear-day.svg" id="image"  alt="">
+               <div id="temperature" class="text-3xl text-black font-medium"></div>
+            <div id="description"></div>
+            <div class="flex items-center text-center justify-between mt-5 -ml-4 w-[80%]">
+                <div class="flex flex-col justify-center items-center text-center text-xl" title="Wind speed">              
+                    <i class="fa-solid fa-wind"></i>
+                    <span class="text-sm mt-2" id="wind"></span>         
+                </div>
+                <div class="flex flex-col justify-center items-center text-center text-xl" title="Thermal sensation">
+                    <i class="fa-solid fa-temperature-half"></i>
+                    <span class="text-sm mt-2" id="feelsLike"></span>
+                </div>
+                <div class="flex flex-col justify-center items-center text-center text-xl" title="Maximum temperature">
+                    <i class="fa-solid fa-sun"></i>
+                    <span class="text-sm mt-2" id="tempMax"></span>
+                </div>
+            </div>  
+>>>>>>> master
         </div>
         <div class="relative w-60">
             <input type="text" class="placeholder-white w-full bg-transparent outline-none text-white border-b-2 pt-1 pb-1 pr-1 pl-1" id="searchInput" placeholder="Enter a city name">
